@@ -9,32 +9,49 @@
 		
 			<style type="text/css">
 			
-			 body {
+			 
+			 #g {
   					text-align: center;
-  					  position: absolute;
+  					position: absolute;
   					top: 30%;
-  				left: 40%;
-  					margin: -25px 0 0 -25px;
-  					background:re;
+  					left: 40%;
+  					margin: -40px 0 0 -35px;
+  					background:Lavender;
+  					border: black 8px double;
+  					font-weight: 600;
+  					height: 300px;
+  					width: 300px;
+  					background-color: Azure;
   				
 				}
+				body{
+					background-color:Ivory;
+				}
+				
+				
+				
+				
 				
 			</style>
 </head>
 
 <body>
 	
-			<div id="g">
+			 <div id="g">
  				 <p>Bienvenido a la Tienda Generica</p>
-  				 <!-- Username -->
+ 				 
+  				<!-- Username -->
+           		<p><label for="name">Usuario:</label>
+           		<input type="name"></p>
+           		
+           		<!-- Password -->
+           		<p> <a href="#">Contraseña</a>
+           		<input type="password"></p>
+           		
+  				<a><input type="submit" value="Aceptar"/>
+  				<input type="submit" value="Cancelar" /></a>
+  			</div>
   			
-           <p> <label for="name">Usuario:</label>
-           <input type="name"></p>
-           <!-- Password -->
-           <p> <a href="#">Contraseña</a>
-           <input type="password"></p>
-  			<input type="submit" value="Aceptar"/>
-  			<input type="submit" value="Cancelar" />
 		
 </body>
 
