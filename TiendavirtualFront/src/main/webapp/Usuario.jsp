@@ -3,56 +3,55 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-		<meta charset="ISO-8859-1">
-		<title>Tienda generica</title>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<!-- Title Page -->  
+    	<title>Login</title>
+ 
+    	<!-- CSS -->
+    	<link rel="stylesheet" href="css/reset.css">
+    	<link rel="stylesheet" href="css/animate.css">
+    	<link rel="stylesheet" href="css/styles.css"> 
+    	<style type="text/css">
+    	#container {
+  			background-color: #FCF3CF;
+  			margin: 7rem;
+  			padding: 3rem;
+  			border: 3px solid #ccc;
+  			/* IMPORTANTE */
+  			text-align: center;
+			}
+		#enviar{
+				background-color: #212F3D;
+			}
+		body{
+			background-color: #212F3D;
+		}
 		
-			<style type="text/css">
+		</style>
+		</head>
+	<body>
+		<div id="container">
+			<form>
+				<h1 aling="Center"> Bienvenido a Tienda Generica</h1>
+				<b><label for="name">Uusario</label></b>
 			
-			 
-			 #g {
-  					text-align: center;
-  					position: absolute;
-  					top: 30%;
-  					left: 40%;
-  					margin: -40px 0 0 -35px;
-  					background:Lavender;
-  					border: black 8px double;
-  					font-weight: 600;
-  					height: 300px;
-  					width: 300px;
-  					background-color: Azure;
-  				
-				}
-				body{
-					background-color:Ivory;
-				}
-				
-				
-				
-				
-				
-			</style>
-</head>
-
-<body>
+				<input style="margin: 5px" type="name">
 	
-			 <div id="g">
- 				 <p>Bienvenido a la Tienda Generica</p>
- 				 
-  				<!-- Username -->
-           		<p><label for="name">Usuario:</label>
-           		<input type="name"></p>
-           		
-           		<!-- Password -->
-           		<p> <a href="#">Contraseña</a>
-           		<input type="password"></p>
-           		
-  				<a><input type="submit" value="Aceptar"/>
-  				<input type="submit" value="Cancelar" /></a>
-  			</div>
-  			
+				<p><b><br><label for="username">Contraseña</label></b>
+				<input style="margin: 5px" type="password"></p>
+				<div id="lower">
+					
+					<div id="enviar"><button style="margin: 20px" >Enviar</button>
+					<button style="margin: 20px">Cencelar</button> </div>
+				
+				</div>
+			</form>
+		</div>
+	
+			
 		
-</body>
+	</body>
 
-</html>
+	</html>
